@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "我要報修", to: "home#follow"
 
   # 加入群組時的自我介紹訊息
-  get "join", to: "home#follow"
+  #get "join", to: "home#follow"
 
   # 有人加入群組時的歡迎訊息
   get "memberJoined", to: "home#member_join"
